@@ -1,13 +1,13 @@
 document.getElementById('est').addEventListener('click', () => {
-  switchLanguage('est');
+  switchLanguage('et');
 });
 
 document.getElementById('eng').addEventListener('click', () => {
-  switchLanguage('eng');
+  switchLanguage('en');
 });
 
 function switchLanguage(lang) {
-  document.querySelectorAll('[data-est]').forEach((el) => {
+  document.querySelectorAll('[data-et]').forEach((el) => {
     el.textContent = el.getAttribute(`data-${lang}`);
   });
 }

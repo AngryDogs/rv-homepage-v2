@@ -21,10 +21,43 @@ body {
   padding: 15px;
 }
 
+.languages {
+  position: absolute;
+  width: 100px;
+  top: 20px;
+  right: 20px;
+}
+
+.language-item {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px !important;
+  cursor: pointer;
+}
+
+.language-item:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.language-item img {
+  width: 100%;
+}
+
+.partner-logo {
+  position: relative;
+  background-color: #07566f;
+  height: 100%;
+}
+
+.partner-logo img {
+  width: 100%;
+}
+
 .landing-page-container {
   height: 550px;
   width: 100%;
-  background: url('background-min.jpg') no-repeat center center;
+  background: url('../images/background-min.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
